@@ -1,14 +1,100 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+    "albuns": [
+      {
+        "id": 1,
+        "titulo": "Comidas Típicas Brasileiras",
+        "descricao": "Deliciosos sabores da culinária brasileira",
+        "localizacao": { "latitude": -19.920907, "longitude": -43.937177 },
+        "url_capa": "https://imgs.search.brave.com/MoQWh_P2n-gMgnrtYuTt08wF9xRMep7txMbjIh96gWg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9waGls/aXBlYnJhenVjYS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMTAvcGFvLWRl/LXF1ZWlqby1icmFz/aWxfY29taWRhc190/aXBpY2FzX2RlX2Jy/YXNpbC53ZWJw"
+      },
+      {
+        "id": 2,
+        "titulo": "Pontos Turísticos Naturais no Brasil",
+        "descricao": "Belezas naturais que encantam",
+        "localizacao": { "latitude": -10.174250, "longitude": -59.456568 },
+        "url_capa": "https://imgs.search.brave.com/HQDYNVbFn8tlb2EkME6xSSlRwKtkhkHV1zN2881fJ0A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2EyLzY2/LzQyL2EyNjY0MjA5/Y2NiYzZjYjdiNjNm/ZDc1Y2M4NmNkYjdm/LmpwZw"
+      },
+      {
+        "id": 3,
+        "titulo": "Outros Pontos Turísticos Brasileiros",
+        "descricao": "Explorando o patrimônio brasileiro",
+        "localizacao": { "latitude": -15.793366, "longitude": -47.882317 },
+        "url_capa": "https://imgs.search.brave.com/WsfLnptHGAbCD6OAij6aTsPXHKWGXrgz6C-sHMW0ffY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tYWdh/emluZS56YXJwby5j/b20uYnIvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTgvMDkvcGFv/LWRlLWFjdWNhcl9y/aW8tZGUtamFuZWly/b196YXJwby5qcGc"
+      }
+    ],
+    "fotos": [
+      {
+        "id": 1,
+        "url_imagem": "https://imgs.search.brave.com/FlBaIITGB-mLO0RvpIBdS-6XuWoKU15kv3pOfFJm3Rk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2xhcmluLmNvbS9p/bWcvMjAyMy8wMy8y/My9QWnMwb0ZONFdf/MzYweDI0MF9fMS5q/cGc",
+        "descricao": "Eleita muitas vezes como uma das melhores praias do mundo (TripAdvisor), oferece uma das mais belas vistas da ilha com seu mar azul turquesa.",
+        "album_id": 2
+      },
+      {
+        "id": 2,
+        "url_imagem": "https://imgs.search.brave.com/jCF7jW8-qkBXOPSlvr1hLEJ9qY0QH2PP1GPnNkLZlVU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWdt/ZC5uZXQvaW1hZ2Vz/L3YxL2d1aWEvMTYw/NDQ5MC9zb2JyZXZv/by1ub3MtbGVuY29p/cy1tYXJhbmhlbnNl/cy5qcGc",
+        "descricao": "A areia branca e fina marca o paradisíaco caminho percorrido pelos viajantes em meio ao Parque Nacional dos Lençóis Maranhenses.",
+        "album_id": 2
+      },
+      {
+        "id": 3,
+        "url_imagem": "https://imgs.search.brave.com/SLy1u1dh2Xo3iWB7Ul89z7YA40mxHImiDhiF2blakbE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGljYXNkZXZpYWdl/bS5jb20vd3AtY29u/dGVudC91cGxvYWRzLzIwMTUvMTEvY2F0/YXJhdGFzLXF1ZWRh/LWFndWEtZGljYXMt/ZGUtdmlhZ2VtLmpw/Zw",
+        "descricao": "Em nossas viagens vimos cachoeiras de todos os tipos e tamanhos, mas estas são únicas pelo panorama que oferecem pela infinidade de cachoeiras, saltos e ruídos.",
+        "album_id": 2
+      },
+      {
+        "id": 4,
+        "url_imagem": "https://imgs.search.brave.com/mWxmFJzhFS0LTDfz2WhoTXez1PD608GBfxqDXk5Xvuk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bWVsaG9yZXNkZXN0/aW5vcy5jb20uYnIv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDkvY3Jpc3RvLXJl/ZGVudG9yLXJpby1j/YXBhLTAyLmpwZw",
+        "descricao": "De braços abertos sobre a Guanabara, o Cristo Redentor recebe os visitantes e abençoa os cariocas.",
+        "album_id": 3
+      },
+      {
+        "id": 5,
+        "url_imagem": "https://imgs.search.brave.com/lWuOZwEiswJhGHJpZE8Am8ku7n_sG0VLXARYnGkKRFE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/dHJhbnNwb3J0YWwu/Y29tLmJyL25vdGlj/aWFzL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE4LzEyL1BlbG91/cmluaG8tQmFoaWEu/anBn",
+        "descricao": "O Largo do Pelourinho, oficialmente Praça José de Alencar, é um logradouro situado no coração da parte mais antiga da cidade de Salvador.",
+        "album_id": 3
+      },
+      {
+        "id": 6,
+        "url_imagem": "https://imgs.search.brave.com/cMYfz4vj1wGXC2GMiTnKNlT9D6zNOYN6Zpz4bwku-1g/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuYWRzdHRjLmNv/bS9tZWRpYS9pbWFn/ZXMvNTBiNi9hNDEy/L2IzZmMvNGI3Yy85/OTAwLzAwNTUvbWVk/aXVtX2pwZy8xMzQ1/ODM3Mjk5LXJvbmFs/ZG8tZGUtY2FydmFs/aG8uanBnPzEzNTQx/NDY4MzQ",
+        "descricao": "Se há uma imagem que marca a cidade de Belo Horizonte, certamente é a Igreja São Francisco de Assis, ou, simplesmente, Igrejinha da Pampulha.",
+        "album_id": 3
+      },
+      {
+        "id": 7,
+        "url_imagem": "https://imgs.search.brave.com/xfDiE2VGHcsa47fOkvuYIMIb07cAsA0aEKSm9npFwOc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jbGF1/ZGlhLmFicmlsLmNv/bS5ici93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wMi9yZWNl/aXRhLWxlaXRhby1w/dXJ1cnVjYS5qcGc",
+        "descricao": "A cozinha mineira é um convite à reunião, a conversa e ao tempo compartilhado, não tem como passar pelo cômodo mais saboroso do estado sem parar para uma prosa.",
+        "album_id": 1
+      },
+      {
+        "id": 8,
+        "url_imagem": "https://imgs.search.brave.com/WdTFwidxinfXlkl7e1z-f_hncOnkMTM_35KNvBZtFaE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/MzYwbWVyaWRpYW5v/cy5jb20vd3AtY29u/dGVudC91cGxvYWRzLzIwMTgvMTIvYWNh/cmFqZS1oaXN0b3Jp/YS5qcGc",
+        "descricao": "O acarajé é uma especialidade gastronômica das culinárias africana e afro-brasileira.",
+        "album_id": 1
+      },
+      {
+        "id": 9,
+        "url_imagem": "https://imgs.search.brave.com/FfTXDMO-aN_zPZEEW-XzZcwuCyh-QwL7eUATQBLjUIo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI0L0ZlaWpvYWRh/XyVDMyVBMF9icmFz/aWxlaXJhXzEuanBn",
+        "descricao": "A feijoada à brasileira é um prato que consiste num guisado de feijões-pretos com vários tipos de carne de porco e de boi.",
+        "album_id": 1
+      }
+    
+    ],
+    "destaques": [
+        {
+          "id": 1,
+          "album_id": 1,
+          "texto_destaque": "Uma jornada gastronômica pelo Brasil"
+        },
+        {
+          "id": 2,
+          "album_id": 2,
+          "texto_destaque": "A natureza em sua forma mais pura"
+        },
+        {
+          "id": 3,
+          "album_id": 3,
+          "texto_destaque": "Descobrindo a riqueza do patrimônio brasileiro"
+        }
+      ]
+    }
+  
